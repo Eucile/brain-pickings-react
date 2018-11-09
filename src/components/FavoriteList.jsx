@@ -5,7 +5,7 @@ var masterFavoriteList = [
   {
     image: 'https://i1.wp.com/www.brainpickings.org/wp-content/uploads/2017/10/bigwolflittlewolf00.jpg?zoom=2&fit=320%2C168&ssl=1',
     teaser: "The Best of Brain Pickings 2018",
-    url: 'https://www.brainpickings.org/2018/05/09/a-brave-and-startling-truth-maya-angelou/',
+    url: '#/RouteTest',
   },
   {
     image: 'https://i1.wp.com/www.brainpickings.org/wp-content/uploads/2018/05/mayaangelou_jannalevin1.jpg?zoom=2&fit=320%2C168&ssl=1',

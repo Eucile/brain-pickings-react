@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import MainArticle from "./MainArticle";
 import SideBar from "./SideBar";
 import { Switch, Route } from 'react-router-dom';
+import RouteTest from "./RouteTest";
 
 function App(){
   return (
@@ -11,7 +12,7 @@ function App(){
       <Header/>
       <Switch>
         <Route exact path='/' component={MainArticle} />
-        <Route path='/' component={MainArticle} />
+        <Route path='/RouteTest' component={RouteTest} />
       </Switch>
       <Footer/>
     </div>
