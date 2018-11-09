@@ -22,6 +22,7 @@ function App(){
           background-image: url('https://maydesigns.cdn.prismic.io/maydesigns/e618d7ea9a430b4eacb60fbe94a78b867c145cef_page1.png');
           background-repeat: repeat;
           background-size: 260px auto;
+          font-family: 'Source Sans Pro', sans-serif;
         }
         h1 a:hover {
           background: #262626;

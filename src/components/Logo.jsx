@@ -16,7 +16,7 @@ function Logo(){
   }
   return (
     <div style={logoBox}>
-      <a href="#"><img style={logoStyles} src={image}/></a>
+      <a href="/"><img style={logoStyles} src={image}/></a>
     </div>
   );
 }
