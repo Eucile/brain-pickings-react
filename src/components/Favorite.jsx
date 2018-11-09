@@ -1,11 +1,22 @@
 import React from "react";
+import PropTypes from "prop-types";
+import FavoriteList from "./FavoriteList";
 
-function Favorite(){
+function Favorite(props){
+  var thumbnail = {
+    width: 180,
+  }
   return(
     <div>
-      <p>This is the Favorite section!</p>
+      <img style={thumbnail} src={props.image}/>
+      <p>{props.teaser}</p>
     </div>
   );
 }
+
+Favorite.propTypes = {
+  image: PropTypes.string,
+  teaser: PropTypes.string,
+};
 
 export default Favorite;

@@ -1,7 +1,7 @@
 import React from "react";
 import Donate from "./Donate";
 import Labors from "./Labors";
-import Favorite from "./Favorite";
+import FavoriteList from "./FavoriteList";
 
 function SideBar(){
   var sideBarStyle = {
@@ -11,7 +11,7 @@ function SideBar(){
   return (
     <div style={sideBarStyle}>
       <Donate/>
-      <Favorite/>
+      <FavoriteList/>
       <Labors/>    
     </div>
   );
