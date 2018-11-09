@@ -27,7 +27,7 @@ function Also(){
       <li><a href="#"><span>live events</span></a></li>
       <li><a href="#"><span>bookshelf</span></a></li>
       <li><a href="#"><span>literary jukebox</span></a></li>
-      <li><a href="#"><span>original art</span></a></li>
+      <li><a href="#/Art"><span>original art</span></a></li>
       <li><a href="https://soundcloud.com/brainpicker/"><span>sounds</span></a></li>
       <li><a href="#"><span>bites</span></a></li>
     </ul>

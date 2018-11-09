@@ -6,6 +6,7 @@ import SideBar from "./SideBar";
 import { Switch, Route } from 'react-router-dom';
 import RouteTest from "./RouteTest";
 import Also from "./Also";
+import Art from "./Art";
 
 function App(){
   var mainDiv = {
@@ -49,6 +50,7 @@ function App(){
       <Switch>
         <Route exact path='/' component={MainArticle} />
         <Route path='/RouteTest' component={RouteTest} />
+        <Route exact path='/Art' component={Art} />
       </Switch>
       <Footer/>
     </div>
