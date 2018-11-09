@@ -19,17 +19,17 @@ This project is an extension of a former project I originally made in Angular. I
 
 1. The program features a main article section that I would like to be informed by a database, but currently I am not sure how to pass content that includes multiple html elements and unique composition into a firebase argument. I initially had it feeding from the database but for now, it is hard-coded as a placeholder. I will revisit this feature once I know how to do pass all media properly.
 
-2. The program features a sidebar that contains multiple components, three of them successfully fed off the central firebase database (in Angluar), however as I transition this project into React, I will be providing a mock database until next week. 
+2. The program features a SideBar that contains multiple components, three of them successfully fed off the central firebase database (in Angluar), however as I transition this project into React, I will be providing a mock database until next week. 
 
-3. The first component in the sidebar is a donation section. It does not change or require a constructor, so it is hard-coded and styled within its own component.
+3. The first component in the SideBar is a donation section. It does not change or require a constructor, so it is hard-coded and styled within its own component.
 
 4. The second component contains the newsletter form. Again, these do not update with new information so they will be hard-coded and composed in their own space.
 
-5. The third component in the sidebar is an About and Contact section. These will only provide external hyperlinks so will be managed with hard code, but I'd like to practice routing on these elements. 
+5. The third component in the SideBar is an About and Contact section. These will only provide external hyperlinks so will be managed with hard code, but I'd like to practice routing on these elements. 
 
-6. The fourth sidebar component is an "Also" section that directs users to other additional media on the website.
+6. The fourth SideBar component is an "Also" section that directs users to other additional media on the website.
 
-7. The sixth sidebar component is a "Favorite Reads" section. This is also a data-informed list that previews the most popular articles up-to-date. It will retrieve its contents via a mock database until next week. I will probably use props to model this information. 
+7. The sixth SideBar component is a "Favorite Reads" section. This is also a data-informed list that previews the most popular articles up-to-date. It will retrieve its contents via a mock database until next week. I will probably use props to model this information. 
 
 8. "Labors of Love" is the ninth component that also draws from another list in the database.
 
@@ -39,6 +39,9 @@ This project is an extension of a former project I originally made in Angular. I
 
 ### Screen Shots
 
+Here is a component tree I'll be working off today. 
+
+![Screenshot](component-tree.png)
 
 ### Technologies and Resources
 
