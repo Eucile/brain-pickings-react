@@ -1,5 +1,6 @@
 import React from "react";
 import MainContent from "./MainContent";
+import SideBar from "./SideBar";
 
 function MainArticle(){
   var mainArticleStyle = {
@@ -12,6 +13,7 @@ function MainArticle(){
   };
   return (
     <div style={mainArticleStyle}>
+      <SideBar/>
       <MainContent/>
     </div>
   );

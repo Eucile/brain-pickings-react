@@ -5,7 +5,7 @@ import Favorite from "./Favorite";
 
 function SideBar(){
   var sideBarStyle = {
-    width: "20",
+    width: "600",
     borderRight: "1px solid gray"
   };
   return (
@@ -16,4 +16,4 @@ function SideBar(){
     </div>
   );
 }
-export default MainArticle;
+export default SideBar;
