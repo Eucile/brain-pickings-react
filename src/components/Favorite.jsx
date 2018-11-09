@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import FavoriteList from "./FavoriteList";
 
 function Favorite(props){
   var thumbnail = {

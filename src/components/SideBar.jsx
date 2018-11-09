@@ -2,6 +2,8 @@ import React from "react";
 import Donate from "./Donate";
 import Labors from "./Labors";
 import FavoriteList from "./FavoriteList";
+import LaborsList from "./LaborsList";
+
 
 function SideBar(){
   var sideBarStyle = {
@@ -12,7 +14,7 @@ function SideBar(){
     <div style={sideBarStyle}>
       <Donate/>
       <FavoriteList/>
-      <Labors/>    
+      <LaborsList/>    
     </div>
   );
 }
