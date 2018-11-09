@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Favorite(props){
   var thumbnail = {
     width: 180,
-  }
+  };
   return(
     <div>
       <img style={thumbnail} src={props.image}/>
