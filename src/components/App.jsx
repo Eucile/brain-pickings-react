@@ -5,6 +5,7 @@ import MainArticle from "./MainArticle";
 import SideBar from "./SideBar";
 import { Switch, Route } from 'react-router-dom';
 import RouteTest from "./RouteTest";
+import Also from "./Also";
 
 function App(){
   var mainDiv = {
