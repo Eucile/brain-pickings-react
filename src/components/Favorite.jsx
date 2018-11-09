@@ -8,7 +8,7 @@ function Favorite(props){
   return(
     <div>
       <img style={thumbnail} src={props.image}/>
-      <p>{props.teaser}</p>
+      <a href={props.url}><p>{props.teaser}</p></a>
     </div>
   );
 }
@@ -16,6 +16,7 @@ function Favorite(props){
 Favorite.propTypes = {
   image: PropTypes.string,
   teaser: PropTypes.string,
+  url: PropTypes.string,
 };
 
 export default Favorite;
