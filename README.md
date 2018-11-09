@@ -21,7 +21,7 @@ This project is an extension of a former project I originally made in Angular. I
 
 Here is a basic component tree to demonstrate what I'm thinking. I will update as needed. 
 
-![Screenshot](component-tree.png)
+![Screenshot](component-tree-update.png)
 
 ## Current Structure
 
