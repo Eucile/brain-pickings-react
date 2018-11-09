@@ -8,7 +8,7 @@ import LaborsList from "./LaborsList";
 function SideBar(){
   var sideBarStyle = {
     width: "600",
-    borderRight: "1px solid gray"
+    borderRight: '1px solid #d9d9d9'
   };
   return (
     <div style={sideBarStyle}>
