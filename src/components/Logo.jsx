@@ -8,7 +8,6 @@ function Logo(){
   marginLeft: "auto",
   marginRight: "auto",
   background: "white",
-  padding: "1em",
   flexFlow: "column nowrap"
   }
   var logoStyles = {
