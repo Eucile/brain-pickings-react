@@ -31,7 +31,6 @@ function App(){
           color: #ffdb00;
           box-shadow: -10px 0px 0px #262626, 10px 0px 0px #262626;
         }
-
         h1 a:after {
             position: relative;
             left: 10px;
@@ -44,6 +43,13 @@ function App(){
             background: #ffdb00;
             text-decoration: none;
             box-shadow: -10px 0px 0px #ffdb00, 10px 0px 0px #ffdb00;
+          }
+          a {
+            text-decoration: none;
+            color: #c33737;
+          }
+          a:before {
+            color: #c33737;
           }
     `}</style>
       <Header/>

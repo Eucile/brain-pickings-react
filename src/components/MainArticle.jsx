@@ -6,7 +6,7 @@ function MainArticle(){
   var mainArticleStyle = {
     display: "flex",
     flexDirection: "row",
-    justifyContent: "space-between",
+    justifyContent: "space-around",
     width: "970",
     marginLeft: "auto",
     marginRight: "auto",

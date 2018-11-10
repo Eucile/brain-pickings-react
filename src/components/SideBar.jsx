@@ -17,9 +17,9 @@ function SideBar(){
   var imgStyles = {
     maxWidth: 180,
   }
-  var sideBarStyle = {
-  width: "600",
-  borderRight: '1px solid #d9d9d9',
+    var sideBarStyle = {
+    width: "600",
+    borderRight: '1px solid #d9d9d9',
   };
   return (
     <div style={sideBarStyle}>
