@@ -2,7 +2,8 @@ import React from "react";
 
 function MainContent(){
   var mainContentStyles = {
-    padding: '2em',
+    padding: '0 2em',
+    marginLeft: '1em',
   }
   var titleStyles = {
     margin: 0,

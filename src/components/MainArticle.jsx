@@ -6,10 +6,10 @@ function MainArticle(){
   var mainArticleStyle = {
     display: "flex",
     flexDirection: "row",
-    justifyContent: "space-around",
+    justifyContent: "space-between",
     width: "970",
-    marginLeft: "auto",
-    marginRight: "auto",
+    marginBottom: '4em',
+    marginTop: '2em',
   };
   return (
     <div style={mainArticleStyle}>

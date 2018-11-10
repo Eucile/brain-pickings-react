@@ -12,6 +12,8 @@ function Logo(){
   }
   var logoStyles = {
     width: "100%",
+    marginLeft: "auto",
+    marginRight: "auto",  
   }
   return (
     <div style={logoBox}>

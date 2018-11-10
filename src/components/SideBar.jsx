@@ -18,7 +18,7 @@ function SideBar(){
     maxWidth: 180,
   }
     var sideBarStyle = {
-    width: "600",
+    width: "230",
     borderRight: '1px solid #d9d9d9',
   };
   return (

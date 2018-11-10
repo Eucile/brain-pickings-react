@@ -15,8 +15,9 @@ function Donate(){
     fontWeight: 'bold',
   }
   var donationStyles = {
-    margin: '1em 2em',
+    margin: '0 2em',
     lineHeight: '.7em',
+    width: 230,
   }
   var monthlyStyles = {
     fontWeight: 'bold',
@@ -30,10 +31,11 @@ function Donate(){
     padding: '1em',
   }
   return(
-		<div style={donateStyles}>
+		<div>
       <div style={loving}>
         <a href="https://www.brainpickings.org/donate/"><img src="https://www.brainpickings.org/wp-content/themes/brainpickings/images/donating_equals_loving@2x.png" alt="loving = donating" onmouseover="this.src='https://www.brainpickings.org/wp-content/themes/brainpickings/images/donating_equals_loving-over@2x.png'" onmouseout="this.src='https://www.brainpickings.org/wp-content/themes/brainpickings/images/donating_equals_loving@2x.png'" width="200" height="122" scale="2"/></a>
       </div>
+      <div style={donateStyles}>
       <p><em>Brain Pickings</em> remains free (and ad-free) and takes me hundreds of hours a month to research and write, and thousands of dollars to sustain.</p>
       <p>If you find any joy and value in what I do, please consider becoming a Sustaining Patron with a recurring monthly donation of your choosing, between a cup of tea and a good lunch:</p>
 
@@ -56,6 +58,7 @@ function Donate(){
 			<h4><a style={buttonStyles} href="https://www.brainpickings.org/donate/">GIVE NOW</a></h4>
 
       <p>Need to cancel a recurring donation? <a href="https://www.brainpickings.org/cancel-recurring-donation/"><strong>Go here</strong></a>.</p>
+      </div>
 		</div>
   );
 }
