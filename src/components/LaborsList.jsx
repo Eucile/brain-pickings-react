@@ -21,7 +21,6 @@ var masterLaborsList = [
 ];
 
 function LaborsList(){
-
   return (
     <div>
       {masterLaborsList.map((item, index) =>

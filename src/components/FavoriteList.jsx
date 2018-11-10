@@ -22,7 +22,6 @@ var masterFavoriteList = [
 ];
 
 function FavoriteList(){
-
   return (
     <div>
       {masterFavoriteList.map((item, index) =>

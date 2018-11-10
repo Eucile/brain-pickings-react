@@ -16,7 +16,7 @@ function MainContent(){
   }
   var authorStyles = {
     color: '#b3b3b3',
-  }
+  };
   return (
     <div style={mainContentStyles}>
         <h1 style={titleStyles}><a href="">A Brave and Startling Truth: Astrophysicist Janna Levin Reads Maya Angelou’s Stunning Humanist Poem That Flew to Space, Inspired by Carl Sagan</a></h1>

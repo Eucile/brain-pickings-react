@@ -50,7 +50,7 @@ function App(){
       <Switch>
         <Route exact path='/' component={MainArticle} />
         <Route path='/RouteTest' component={RouteTest} />
-        <Route exact path='/Art' component={Art} />
+        <Route path='/Art' component={Art} />
       </Switch>
       <Footer/>
     </div>

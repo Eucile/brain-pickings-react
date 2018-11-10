@@ -4,7 +4,7 @@ import image from "../assets/images/logo.png";
 function Logo(){  
   var logoBox = {
   display: "flex",
-  maxWidth: "970",
+  maxWidth: 970,
   marginLeft: "auto",
   marginRight: "auto",
   background: "white",

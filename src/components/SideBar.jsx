@@ -5,7 +5,6 @@ import FavoriteList from "./FavoriteList";
 import LaborsList from "./LaborsList";
 import Also from "./Also";
 
-
 function SideBar(){
   var underline = {
     width: 172,
@@ -14,13 +13,13 @@ function SideBar(){
     margin: '0 0 .4em 0',
     borderBottom: '1px solid #8c8c8c',
     paddingTop: '1.2em',
-    }
-    var imgStyles = {
-      maxWidth: 180,
-    }
+  }
+  var imgStyles = {
+    maxWidth: 180,
+  }
   var sideBarStyle = {
-    width: "600",
-    borderRight: '1px solid #d9d9d9',
+  width: "600",
+  borderRight: '1px solid #d9d9d9',
   };
   return (
     <div style={sideBarStyle}>

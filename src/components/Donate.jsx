@@ -2,8 +2,6 @@ import React from "react";
 
 function Donate(){
   return(
-    <div>
-    <div>
 		<div>
       <p><em>Brain Pickings</em> remains free (and ad-free) and takes me hundreds of hours a month to research and write, and thousands of dollars to sustain.</p>
       <p>If you find any joy and value in what I do, please consider becoming a Sustaining Patron with a recurring monthly donation of your choosing, between a cup of tea and a good lunch:</p>
@@ -28,8 +26,6 @@ function Donate(){
 
       <p>Need to cancel a recurring donation? <a href="https://www.brainpickings.org/cancel-recurring-donation/"><strong>Go here</strong></a>.</p>
 		</div>
-</div>
-    </div>
   );
 }
 
