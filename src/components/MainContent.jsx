@@ -23,50 +23,50 @@ function MainContent(){
   }
   return (
     <div style={mainContentStyles}>
-    <style jsx>{`
-      img {
-        max-width: 100%;
-        /* width: 100%; */
-        margin: 0 auto;
-      }
-      .book-link {
-        width: 200px;
-        float: right;
-        margin: .7em 0 .7em 40px;
-      }
-      p {
-        font-weight: 400;
-        font-size: 1.125em;
-        line-height: 1.825em;
-        margin: 0 0 1em 0;
-      }
-      figure {
-        background: #e6e6e6;
-        padding: 20px 20px 5px;
-        margin: .8em 0 1.5em 0;
-      }
-      figcaption {
-        font-size: .9em;
-        line-height: 1.7em;
-        padding: 10px 0 5px 0;
-        font-weight: 300;
-        color: #1a1a1a; 
-      }
-      .flex-quotes {
-        display: flex;
-      }
-      .yellowquotes {
-        max-height: 80px;
-        margin-right: 2em;
-      }
-      .monogram {
-        text-align: center;
-        margin-bottom: 2em;
-      }
-      .bp {
-        width: 82px;
-      }
-    `}</style>
+      <style jsx>{`
+        img {
+          max-width: 100%;
+          /* width: 100%; */
+          margin: 0 auto;
+        }
+        .book-link {
+          width: 200px;
+          float: right;
+          margin: .7em 0 .7em 40px;
+        }
+        p {
+          font-weight: 400;
+          font-size: 1.125em;
+          line-height: 1.825em;
+          margin: 0 0 1em 0;
+        }
+        figure {
+          background: #e6e6e6;
+          padding: 20px 20px 5px;
+          margin: .8em 0 1.5em 0;
+        }
+        figcaption {
+          font-size: .9em;
+          line-height: 1.7em;
+          padding: 10px 0 5px 0;
+          font-weight: 300;
+          color: #1a1a1a; 
+        }
+        .flex-quotes {
+          display: flex;
+        }
+        .yellowquotes {
+          max-height: 80px;
+          margin-right: 2em;
+        }
+        .monogram {
+          text-align: center;
+          margin-bottom: 2em;
+        }
+        .bp {
+          width: 82px;
+        }
+      `}</style>
         <h1 style={titleStyles}><a href="">Georgia O’Keeffe on the Art of Seeing</a></h1>
         <h2 style={quoteStyles}>"To see takes time, like to have a friend takes time."</h2>
         <p style={authorStyles}>BY MARIA POPOVA</p>  

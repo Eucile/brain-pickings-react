@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Moment from 'moment';
 
 function Post(props) {
   var mainContentStyles = {
@@ -21,21 +22,21 @@ function Post(props) {
   };
   return(
     <div>
-    <style jsx>{`
-      .monogram {
-        border-bottom: 1px solid #d9d9d9;
-        text-align: center;
-        margin-bottom: 2em;
-      }
-      .bp {
-        width: 82px;
-        margin-bottom: 2em;
-      }
-    `}</style>
+      <style jsx>{`
+        .monogram {
+          border-bottom: 1px solid #d9d9d9;
+          text-align: center;
+          margin-bottom: 2em;
+        }
+        .bp {
+          width: 82px;
+          margin-bottom: 2em;
+        }
+      `}</style>
       <div style={mainContentStyles}>
           <h1 style={titleStyles}><a href="">{props.title}</a></h1>
           <h2 style={quoteStyles}>“{props.quote}”</h2>
-          <p style={authorStyles}>{props.author}</p>
+          <p style={authorStyles}>{props.author} - posted {props.formattedWaitTime} ago</p>
           <p>{props.content}</p>
           <div className="monogram">
             <img className="bp" src="https://www.brainpickings.org/wp-content/themes/brainpickings/images/bp_monogram@2x.png"/>
@@ -50,6 +51,7 @@ Post.propTypes = {
   quote: PropTypes.string,
   author: PropTypes.string,
   content: PropTypes.string,
+  formattedWaitTime: PropTypes.string.isRequired,
 };
 
 export default Post;

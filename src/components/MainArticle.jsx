@@ -3,7 +3,7 @@ import MainContent from "./MainContent";
 import SideBar from "./SideBar";
 import PostList from './PostList';
 import NewPostControl from './NewPostControl';
-
+import Moment from 'moment';
 
 class MainArticle extends React.Component{
   constructor() {
@@ -14,8 +14,26 @@ class MainArticle extends React.Component{
     this.handleAddingNewPostToList = this.handleAddingNewPostToList.bind(this);
   }
 
+  componentDidMount() {
+    this.waitTimeUpdateTimer = setInterval(() =>
+      this.updatePostElapsedWaitTime(),
+      5000
+    );
+  }
+  componentWillUnmount(){
+    clearInterval(this.waitTimeUpdateTimer);
+  }
+  updatePostElapsedWaitTime() {
+    console.log('check');
+    let newMasterPostList = this.state.masterPostList.slice();
+    newMasterPostList.forEach((post) =>
+      post.formattedWaitTime = (post.timeOpen).fromNow(true)
+    );
+    this.setState({masterPostList: newMasterPostList});
+  }
   handleAddingNewPostToList(newPost){
     var newMasterPostList = this.state.masterPostList.slice();
+    newPost.formattedWaitTime = (newPost.timeOpen).fromNow(true)
     newMasterPostList.push(newPost);
     this.setState({masterPostList: newMasterPostList});
   }
@@ -46,25 +64,5 @@ class MainArticle extends React.Component{
   }
 }
 
-
 export default MainArticle;
 
-
-// 
-// function MainArticle(){
-//   var mainArticleStyle = {
-//     display: "flex",
-//     flexDirection: "row",
-//     justifyContent: "space-between",
-//     width: "970",
-//     marginBottom: '4em',
-//     marginTop: '2em',
-//   };
-//   return (
-//     <div style={mainArticleStyle}>
-//       <SideBar/>
-//       <MainContent/>
-//     </div>
-//   );
-// }
-// export default MainArticle;
