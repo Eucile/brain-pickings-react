@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { v4 } from 'uuid';
 
 function NewPostForm(props){
   
@@ -10,7 +11,7 @@ function NewPostForm(props){
 
   function handleNewPostFormSubmission(event) {
     event.preventDefault();
-    props.onNewPostCreation({title: _title.value, quote: _quote.value, author: _author.value, content: _content.value});
+    props.onNewPostCreation({title: _title.value, quote: _quote.value, author: _author.value, content: _content.value, id: v4()});
     _title.value = '';
     _quote.value = '';
     _author.value = '';

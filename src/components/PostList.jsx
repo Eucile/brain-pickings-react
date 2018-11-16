@@ -11,7 +11,7 @@ function PostList(props) {
           quote={post.quote}
           author={post.author}
           content={post.content}
-          key={index}
+          key={post.id}
         />
       )}
     </div>
