@@ -33,11 +33,12 @@ class MainArticle extends React.Component{
       <div>
         <div style={mainArticleStyle}>
           <SideBar/>
+          <div>
           <MainContent/>
+          <PostList
+                  postList={this.state.masterPostList}/></div>
           <NewPostControl
           onNewPostCreation={this.handleAddingNewPostToList}/>
-          <PostList
-          postList={this.state.masterPostList}/>
         </div>
       </div>
     );

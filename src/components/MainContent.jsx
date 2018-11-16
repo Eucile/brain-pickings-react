@@ -22,7 +22,7 @@ function MainContent(){
     <div style={mainContentStyles}>
         <h1 style={titleStyles}><a href="">A Brave and Startling Truth: Astrophysicist Janna Levin Reads Maya Angelou’s Stunning Humanist Poem That Flew to Space, Inspired by Carl Sagan</a></h1>
         <h2 style={quoteStyles}>“Out of such chaos, of such contradiction / We learn that we are neither devils nor divines…”</h2>
-        <p style={authorStyles}>BY MARIA POPOVA</p>
+        <p style={authorStyles}>BY MARIA POPOVA</p>      
     </div>  
   );
 }
