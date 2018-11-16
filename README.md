@@ -15,7 +15,7 @@ This project is an extension of a former project I initially made in Angular. It
 
   I have a rough idea how this clone can be implemented in React, but I will adjust my expectations as I work today. I think that much of the organization will resemble how I worked in Angular, but the components that require data will each need their own components to feed off. These will contain arrays of mock data objects that will be much like the hard-coded data in Angular, but instead of TypeScript looping I will just map through these objects with new JSX syntax. 
   
-  CSS styling multi-components in the context of React will be fun to figure out, but other than some syntax differences I don't foresee any major changes from Angular. The concept and style organization between components is similar to Angular in terms of overall modularity. The main difference I see is that in React, extra css files are not needed for each component and css can be worked  into the jsx file itself using css objects or style literals. It's nice to see React handle all these aspects of the view in one file.  
+  CSS styling multi-components in the context of React will be fun to figure out, but other than some syntax differences I don't foresee any major changes from Angular. The concept and style organization between components is similar to Angular in terms of overall modularity. The main difference I see is that in React, extra css files are not needed for each component and css can be worked into the jsx file itself using css objects or style literals. It's nice to see React handle all these aspects of the view in one file.  
 
 ### Screen Shots
 
