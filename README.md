@@ -23,6 +23,10 @@ Here is a basic component tree to demonstrate what I'm thinking. Will be updated
 
 ![Screenshot](component-tree.png)
 
+#### Here is the updated component tree. There is a new stateful feature lifting up to MainArticles.jsx that lets a user add a new article to the main articles section. 
+
+![Screenshot](componenttreeupdated.png)
+
 ## Current Structure
 
 1. The program features a main article section that I would like to be informed by a database, but currently I am not sure how to pass content that includes multiple html elements and unique composition into a firebase argument. I initially had it feeding from the database but for now, it is hard-coded as a placeholder. I will revisit this feature once I know how to do pass all media properly.
