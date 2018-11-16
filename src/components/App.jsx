@@ -8,6 +8,7 @@ import RouteTest from "./RouteTest";
 import Also from "./Also";
 import Art from "./Art";
 import NewPostControl from './NewPostControl';
+import Admin from './Admin';
 
 function App(){
   var mainDiv = {
@@ -58,7 +59,8 @@ function App(){
         <Route exact path='/' component={MainArticle} />
         <Route path='/RouteTest' component={RouteTest} />
         <Route path='/Art' component={Art} />
-        <Route path='/NewPostControl' component={NewPostControl} />    
+        <Route path='/NewPostControl' component={NewPostControl} />
+        <Route path='/Admin' component={Admin} />
       </Switch>
       <Footer/>
     </div>
