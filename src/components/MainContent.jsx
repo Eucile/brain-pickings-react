@@ -83,6 +83,7 @@ function MainContent(){
         <figure><img src ="https://i2.wp.com/www.brainpickings.org/wp-content/uploads/2018/11/GeorgiaOkeeffe1925.jpg?w=800&ssl=1"/>
         <figcaption>Georgia O’Keeffe, Grey Lines with Black, Blue and Yellow, 1923 (Georgia O’Keeffe Museum))</figcaption>
         </figure>
+        <p>Complement with O’Keeffe on setting priorities, success, public opinion, and what it means to be an artist, and her passionate love letters to Alfred Stieglitz, then revisit cognitive scientist Alexandra Horowitz on the art of looking, Annie Dillard on the secret to seeing, philosopher Martin Buber on what a tree can teach us about seeing others as they truly are, John Ruskin on how drawing trains you to see more clearly and live with greater presence, and Emily Dickinson’s astounding herbarium — a forgotten masterpiece of attention at the intersection of poetry and science.</p>
     </div>  
   );
 }
