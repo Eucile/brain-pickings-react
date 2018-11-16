@@ -21,11 +21,25 @@ function Post(props) {
   };
   return(
     <div>
+    <style jsx>{`
+      .monogram {
+        border-bottom: 1px solid #d9d9d9;
+        text-align: center;
+        margin-bottom: 2em;
+      }
+      .bp {
+        width: 82px;
+        margin-bottom: 2em;
+      }
+    `}</style>
       <div style={mainContentStyles}>
           <h1 style={titleStyles}><a href="">{props.title}</a></h1>
           <h2 style={quoteStyles}>“{props.quote}”</h2>
           <p style={authorStyles}>{props.author}</p>
           <p>{props.content}</p>
+          <div className="monogram">
+            <img className="bp" src="https://www.brainpickings.org/wp-content/themes/brainpickings/images/bp_monogram@2x.png"/>
+          </div>
       </div>  
     </div>
   );

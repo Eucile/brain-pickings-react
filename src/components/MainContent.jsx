@@ -5,6 +5,8 @@ function MainContent(){
   var mainContentStyles = {
     padding: '0 2em',
     marginLeft: '1em',
+    borderBottom: '1px solid rgb(217, 217, 217)',
+    marginBottom: '2em'
   }
   var titleStyles = {
     margin: 0,
@@ -57,6 +59,13 @@ function MainContent(){
         max-height: 80px;
         margin-right: 2em;
       }
+      .monogram {
+        text-align: center;
+        margin-bottom: 2em;
+      }
+      .bp {
+        width: 82px;
+      }
     `}</style>
         <h1 style={titleStyles}><a href="">Georgia O’Keeffe on the Art of Seeing</a></h1>
         <h2 style={quoteStyles}>"To see takes time, like to have a friend takes time."</h2>
@@ -84,6 +93,9 @@ function MainContent(){
         <figcaption>Georgia O’Keeffe, Grey Lines with Black, Blue and Yellow, 1923 (Georgia O’Keeffe Museum))</figcaption>
         </figure>
         <p>Complement with O’Keeffe on setting priorities, success, public opinion, and what it means to be an artist, and her passionate love letters to Alfred Stieglitz, then revisit cognitive scientist Alexandra Horowitz on the art of looking, Annie Dillard on the secret to seeing, philosopher Martin Buber on what a tree can teach us about seeing others as they truly are, John Ruskin on how drawing trains you to see more clearly and live with greater presence, and Emily Dickinson’s astounding herbarium — a forgotten masterpiece of attention at the intersection of poetry and science.</p>
+        <div className="monogram">
+          <img className="bp" src="https://www.brainpickings.org/wp-content/themes/brainpickings/images/bp_monogram@2x.png"/>
+        </div>
     </div>  
   );
 }
