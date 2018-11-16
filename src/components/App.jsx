@@ -7,6 +7,7 @@ import { Switch, Route } from 'react-router-dom';
 import RouteTest from "./RouteTest";
 import Also from "./Also";
 import Art from "./Art";
+import NewPostControl from './NewPostControl';
 
 function App(){
   var mainDiv = {
@@ -57,6 +58,7 @@ function App(){
         <Route exact path='/' component={MainArticle} />
         <Route path='/RouteTest' component={RouteTest} />
         <Route path='/Art' component={Art} />
+        <Route path='/NewPostControl' component={NewPostControl} />    
       </Switch>
       <Footer/>
     </div>

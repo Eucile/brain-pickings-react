@@ -12,7 +12,7 @@ function Donate(){
     textDecoration: 'none',
     display: 'inline-block',
     border: 'none',
-    fontWeight: 'bold',
+    fontWeight: 700,
   }
   var donationStyles = {
     margin: '0 2em',
@@ -31,7 +31,7 @@ function Donate(){
     padding: '1em',
   }
   return(
-		<div>
+		<div>      
       <div style={loving}>
         <a href="https://www.brainpickings.org/donate/"><img src="https://www.brainpickings.org/wp-content/themes/brainpickings/images/donating_equals_loving@2x.png" alt="loving = donating" onmouseover="this.src='https://www.brainpickings.org/wp-content/themes/brainpickings/images/donating_equals_loving-over@2x.png'" onmouseout="this.src='https://www.brainpickings.org/wp-content/themes/brainpickings/images/donating_equals_loving@2x.png'" width="200" height="122" scale="2"/></a>
       </div>

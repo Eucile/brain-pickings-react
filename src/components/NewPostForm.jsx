@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function NewPostForm(props){
+  
   let _title = null;
   let _quote = null;
   let _author = null;
@@ -17,29 +18,63 @@ function NewPostForm(props){
   }
 
   return (
-
     <div>
       <style jsx>{`
+        input, textarea {
+          height: auto;
+          border: 1px solid #8c8c8c;
+          padding: 10px 0px 7px 10px;
+          margin: 1em;
+          color: #262626;
+          font-size: .75em;
+          line-height: 1;
+          font-weight: 700;
+          letter-spacing: .1em;
+          text-transform: uppercase;
+        }
+        button {
+          color: rgb(38, 38, 38);
+          background-color: rgb(255, 219, 0);
+          border-radius: 25px;
+          padding: 10px 20px;
+          text-decoration: none;
+          display: inline-block;
+          border: none;
+          font-weight: bold;
+        }
+        .form-box {
+          background: #e6e6e6;
+          padding: 1.25em 5.882352941176% 20px;
+          margin: 2.7em 0 0;
+          width: 80%;
+          margin: 0 auto;
+        }
+        .content-box {
+          width: 87%;
+          height: 300px;
+        }
       `}</style>
-      <form onSubmit={handleNewPostFormSubmission}>
-        <input
-          type='text'
-          id='title'
-          placeholder='Title of new post:'
-          ref={(input) => {_title = input;}}/>
-        <input
-          type='text'
-          id='quote'
-          placeholder='Opening quote:'
-          ref={(input) => {_quote = input;}}/>
-        <input
-          type='text'
-          id='author'
-          placeholder='Author name:'
-          ref={(input) => {_author = input;}}/>
-        <textarea 
+      <form className="form-box" onSubmit={handleNewPostFormSubmission}>
+        <div>
+          <input
+            type='text'
+            id='title'
+            placeholder='Title:'
+            ref={(input) => {_title = input;}}/>
+          <input
+            type='text'
+            id='quote'
+            placeholder='Quote:'
+            ref={(input) => {_quote = input;}}/>
+          <input
+            type='text'
+            id='author'
+            placeholder='Author name:'
+            ref={(input) => {_author = input;}}/>
+        </div>
+        <textarea className="content-box"
           id='content'
-          placeholder='New article content:'
+          placeholder='Content:'
           ref={(textarea) => {_content = textarea;}}/>
         <button type='submit'>Submit</button>
       </form>

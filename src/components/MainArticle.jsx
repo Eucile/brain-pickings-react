@@ -36,9 +36,10 @@ class MainArticle extends React.Component{
           <div>
           <MainContent/>
           <PostList
-                  postList={this.state.masterPostList}/></div>
+          postList={this.state.masterPostList}/>
           <NewPostControl
           onNewPostCreation={this.handleAddingNewPostToList}/>
+          </div>
         </div>
       </div>
     );
