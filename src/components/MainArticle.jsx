@@ -24,7 +24,6 @@ class MainArticle extends React.Component{
     clearInterval(this.waitTimeUpdateTimer);
   }
   updatePostElapsedWaitTime() {
-    console.log('check');
     let newMasterPostList = this.state.masterPostList.slice();
     newMasterPostList.forEach((post) =>
       post.formattedWaitTime = (post.timeOpen).fromNow(true)
