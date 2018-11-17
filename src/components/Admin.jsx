@@ -1,9 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import App from './App';
-import MainArticle from "./MainArticle";
-import { Switch, Route } from 'react-router-dom';
-import NewPostControl from './NewPostControl';
+import PostList from './PostList';
+import Moment from 'moment';
 
 function Admin(props){
   return (
