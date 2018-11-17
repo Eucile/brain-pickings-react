@@ -59,8 +59,9 @@ function App(){
         <Route exact path='/' component={MainArticle} />
         <Route path='/RouteTest' component={RouteTest} />
         <Route path='/Art' component={Art} />
-        <Route path='/NewPostControl' component={NewPostControl} />
-        <Route path='/Admin' component={Admin} />
+        <Route exact path='/' render={()=><PostList postList={this.state.masterPostList} />} />
+        <Route path='/NewPostControl' render={()=><NewPostControl onNewPostCreation={this.handleAddingNewPostToList} />} />
+        <Route path='/admin' render={()=><Admin ticketList={this.state.masterTicketList} />} />
       </Switch>
       <Footer/>
     </div>
