@@ -25,7 +25,7 @@ Here is a basic component tree to demonstrate what I'm thinking. Will be updated
 
 #### Here is the updated component tree. There is a new stateful feature lifting up to MainArticles.jsx that lets a user add a new article to the main articles section. 
 
-![Screenshot](componenttreeupdated.png)
+![Screenshot](statecomponenttree.png)
 
 ## Current Structure
 

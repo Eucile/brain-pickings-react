@@ -4,9 +4,6 @@ import SideBar from "./SideBar";
 import PostList from './PostList';
 import NewPostControl from './NewPostControl';
 import Moment from 'moment';
-import { Switch, Route } from 'react-router-dom';
-import RouteTest from "./RouteTest";
-import Admin from './Admin';
 
 class MainArticle extends React.Component{
   constructor() {
@@ -55,11 +52,6 @@ class MainArticle extends React.Component{
           <SideBar/>
           <div>
           <MainContent/>
-        <Switch>
-          <Route exact path='/' render={()=><PostList postList={this.state.masterPostList} />} />
-          <Route path='/newpost' render={()=><NewPostControl onNewPostCreation={this.handleAddingNewPostToList} />} />
-          <Route path='/admin' render={()=><Admin postList={this.state.masterPostList} />} />
-        </Switch>
           <PostList
           postList={this.state.masterPostList}/>
           <NewPostControl

@@ -9,7 +9,6 @@ import Also from "./Also";
 import Art from "./Art";
 import NewPostControl from './NewPostControl';
 import Admin from './Admin';
-import PostList from './PostList';
 
 function App(){
   var mainDiv = {
@@ -60,9 +59,8 @@ function App(){
         <Route exact path='/' component={MainArticle} />
         <Route path='/RouteTest' component={RouteTest} />
         <Route path='/Art' component={Art} />
-        <Route exact path='/' render={()=><PostList postList={this.state.masterPostList} />} />
-        <Route path='/NewPostControl' render={()=><NewPostControl onNewPostCreation={this.handleAddingNewPostToList} />} />
-        <Route path='/admin' render={()=><Admin postList={this.state.masterPostList} />} />
+        <Route path='/NewPostControl' component={NewPostControl} />
+        <Route path='/Admin' component={Admin} />
       </Switch>
       <Footer/>
     </div>
