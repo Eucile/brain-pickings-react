@@ -27,7 +27,8 @@ Here is a basic component tree to demonstrate what I'm thinking. Will be updated
 
 ![Screenshot](statecomponenttree.png)
 
-## Current Structure
+
+## Current Overall Structure
 
 1. The program features a main article section that I would like to be informed by a database, but currently I am not sure how to pass content that includes multiple html elements and unique composition into a firebase argument. I initially had it feeding from the database but for now, it is hard-coded as a placeholder. I will revisit this feature once I know how to do pass all media properly.
 
@@ -48,6 +49,14 @@ Here is a basic component tree to demonstrate what I'm thinking. Will be updated
 9. Another component is the logo banner at the top.
 
 10. The last component is the footer section, which again will be made its own component but will not need props or any additional stateful fussings.
+
+## New Features
+
+11. I have added three new components that allow a user to add a new article to the main feed. State is lifted from these components into MainArticles.jsx, which is the only necessary state component I need so far. 
+
+## Future Goals
+
+I would like to incorporate a working admin component that handled all of the new posts instead of it being open, but for now I am satisfied just using this project to practice unidirectional data and state configuration in any way I can. 
 
 ### Technologies and Resources
 
