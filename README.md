@@ -5,7 +5,7 @@
 
 ### Description
 
-This project is an extension of a former project I initially made in Angular. It will be reconstituted and styled using JSX and the React library. The project was first cloned off the online newsletter, [Brain Pickings](https://www.brainpickings.org/) using TypeScript and angular components, but here I have integrated it all into React.
+This project is an extension of a former project I initially made in Angular. It has been reconstituted and styled using JSX and the React library. The project was first cloned off the online newsletter, [Brain Pickings](https://www.brainpickings.org/) using TypeScript and angular components, but here I have integrated it all into React.
 
 ### Questions, Concerns
 
